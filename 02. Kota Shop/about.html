@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhekhe Kota - The Flavour of the Kasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="\css\styles.css">
+    
+</head>
+
+<body class="font-body bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-kota-brown text-white py-4 px-6 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold font-heading">Makhekhe<span class="text-kota-yellow">Kota</span></a>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="hover:text-kota-yellow transition">Home</a>
+                <a href="menu.html" class="hover:text-kota-yellow transition">Menu</a>
+                <a href="about.html" class="hover:text-kota-yellow transition">About</a>
+                <a href="contact.html" class="hover:text-kota-yellow transition">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-kota-brown px-4 pb-4">
+            <a href="#home" class="block py-2 hover:text-kota-yellow">Home</a>
+            <a href="menu.html" class="block py-2 hover:text-kota-yellow">Menu</a>
+            <a href="about.html" class="block py-2 hover:text-kota-yellow">About</a>
+            <a href="contact.html" class="block py-2 hover:text-kota-yellow">Contact</a>
+        </div>
+    </nav>
+
+    <!-- About Us Page -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-center text-kota-brown mb-12">Our Story</h2>
+               <div class="flex flex-col lg:flex-row items-center street-border bg-white p-6 md:p-0 md:bg-transparent">
+                
+                <!-- Image Column -->
+                <div class="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
+                    <div class="about-image h-50 w-full rounded-lg overflow-hidden">
+                        <img src="images/makhekhe.jpg" alt="Makhekhe Kota Story" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                
+                <!-- Text Column -->
+                <div class="lg:w-1/2 lg:pl-8">
+                    <h3 class="text-2xl font-heading font-bold text-kota-brown mb-4">Rooted in Township Pride</h3>
+                    <p class="text-gray-700 mb-4">
+                        Makhekhe Kota started as a small street food stall in Soweto in 2010. Our founder, Thabo, wanted to share the authentic taste of township kotas with the world.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        What began as a humble venture with just a grill and a cooler box has grown into a beloved local institution, known for our generous portions and secret family recipes.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        We take pride in using fresh ingredients and preparing each kota with care, just like how Thabo's grandmother taught him. Every bite tells a story of community, heritage, and the vibrant spirit of South African township culture.
+                    </p>
+                    <div class="mt-6 flex items-center">
+                        <div class="bg-kota-yellow rounded-full h-12 w-12 flex items-center justify-center text-kota-brown mr-4">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="italic text-kota-brown">
+                            "We don't just sell food—we share our heritage one kota at a time."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Visit Us -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-center text-kota-brown mb-12">Visit Us</h2>
+            
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <!-- Google Maps placeholder -->
+                    <div class="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-map-marker-alt text-4xl text-kota-red mb-4"></i>
+                            <p class="text-gray-700">Google Maps will be embedded here</p>
+                            <p class="text-sm text-gray-600">123 Soweto Street, Johannesburg</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-kota-brown bg-opacity-5 p-8 rounded-lg">
+                        <h3 class="text-2xl font-heading font-bold text-kota-brown mb-6">Get In Touch</h3>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-bold text-kota-brown mb-2">Address</h4>
+                            <p class="text-gray-700">123 Soweto Street, Vilakazi Precinct, Johannesburg</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-bold text-kota-brown mb-2">Hours</h4>
+                            <p class="text-gray-700">Monday - Saturday: 8am - 8pm</p>
+                            <p class="text-gray-700">Sunday: 9am - 6pm</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h4 class="font-bold text-kota-brown mb-2">Contact</h4>
+                            <a href="tel:+27123456789" class="block text-gray-700 hover:text-kota-red mb-2">
+                                <i class="fas fa-phone mr-2"></i> +27 12 345 6789
+                            </a>
+                            <a href="mailto:info@makhekhekota.co.za" class="block text-gray-700 hover:text-kota-red">
+                                <i class="fas fa-envelope mr-2"></i> info@makhekhekota.co.za
+                            </a>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <a href="https://wa.me/27123456789?text=I'd like to order a kota" class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-full font-bold inline-flex items-center mr-4 mb-4">
+                                <i class="fab fa-whatsapp mr-2 text-xl"></i> WhatsApp Us
+                            </a>
+                            <a href="tel:+27123456789" class="bg-kota-brown hover:bg-brown-800 text-white py-3 px-6 rounded-full font-bold inline-flex items-center mb-4">
+                                <i class="fas fa-phone mr-2"></i> Call Now
+                            </a>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-kota-brown mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://facebook.com" class="bottle-cap">
+                                    <i class="fab fa-facebook-f text-kota-brown"></i>
+                                </a>
+                                <a href="https://intagram.com" class="bottle-cap">
+                                    <i class="fab fa-instagram text-kota-brown"></i>
+                                </a>
+                                <a href="https://x.com" class="bottle-cap">
+                                    <i class="fab fa-twitter text-kota-brown"></i>
+                                </a>
+                                <a href="https://tiktok.com" class="bottle-cap">
+                                    <i class="fab fa-tiktok text-kota-brown"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-kota-brown text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-2xl font-bold font-heading">Makhekhe<span class="text-kota-yellow">Kota</span></h3>
+                    <p class="text-sm opacity-80">The Flavour of the Kasi, Served Fresh.</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="https://facebook.com" class="hover:text-kota-yellow transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://intagram.com" class="hover:text-kota-yellow transition"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com" class="hover:text-kota-yellow transition"><i class="fab fa-twitter"></i></a>
+                    <a href="https://tiktok.com" class="hover:text-kota-yellow transition"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="border-t border-brown-800 mt-8 pt-8 text-sm text-center opacity-80">
+                <p>&copy; 2025 Makhekhe Kota. Website by Lebu Xabanisa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'kota-yellow': '#FFC300',
+                        'kota-brown': '#5C4033',
+                        'kota-red': '#E63946',
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+        
+        // Food card hover effect
+        const foodCards = document.querySelectorAll('.food-card');
+        foodCards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.querySelector('.price-hidden').classList.remove('opacity-0');
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.querySelector('.price-hidden').classList.add('opacity-0');
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
